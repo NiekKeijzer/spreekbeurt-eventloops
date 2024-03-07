@@ -1,0 +1,22 @@
+{
+    "name": "niekkeijzer/eventloops",
+    "type": "project",
+    "require-dev": {
+        "symfony/var-dumper": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Niekkeijzer\\Eventloops\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Niek Keijzer",
+            "email": "hello@niekkeijzer.com"
+        }
+    ],
+    "require": {
+      "ext-sockets": "*",
+      "ext-pcntl": "*"
+    }
+}
